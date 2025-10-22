@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Title Bar -->
+  <header class="top-bar">
+    <h1 id="site-title">Tommaso Zabeo</h1>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-bar">
+    <div class="nav-buttons">
+      <button id="about" onclick="navigate('index.html', 'about')">About</button>
+      <button id="projects" class="active" onclick="navigate('projects.html', 'projects')">Projects</button>
+      <button id="skills" onclick="navigate('index.html', 'skills')">Skills</button>
+      <button id="contact" onclick="navigate('index.html', 'contact')">Contact</button>
+    </div>
+    <div class="language-selector">
+      <span id="language" onclick="toggleLanguage()">Lingua: Italiano 🇮🇹</span>
+    </div>
+  </nav>
+
+  <!-- Project Selector Buttons -->
+  <div class="project-buttons">
+    <button id="taaos" onclick="loadProject('taaos')">TAAOS</button>
+    <button id="echoes" onclick="loadProject('echoes')">Echoes of 2030</button>
+  </div>
+
+  <!-- Project Display Window -->
+  <section class="project-window" id="project-window">
+    <!-- Image is now included correctly -->
+    <img id="project-image" src="" alt="Project image" class="hidden" />
+    
+    <!-- Text container -->
+    <div id="project-text" class="fade-in">
+      <h2>Progetto Selezionato</h2>
+      <p>Seleziona un progetto per vedere i dettagli.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
