@@ -43,7 +43,7 @@ const content = {
                 <strong>Sito Internet:</strong> <a href="https://www.itiseveripadova.edu.it/" target="_blank">https://www.itiseveripadova.edu.it/</a>
               </p>
               `,
-        video: "https://www.youtube.com/embed/tOHW6nHvFFE"
+        video: "https://www.youtube.com/embed/UvOJ3FofeKY"
     },
     projects: {
       title: "Progetti",
@@ -87,8 +87,11 @@ const content = {
                 <li><strong>📞 Phone:</strong> <a href="tel:+3483059292">+39 348 305 9292</a></li>
                 <li><strong>📧 Email:</strong> <a href="zabeotommaso@gmail.com">zabeotommaso@gmail.com</a></li>
                 <li><strong>💬 WhatsApp:</strong> <a href="https://wa.me/3483059292" target="_blank">Chatta con me su WhatsApp</a></li>
-                <li><strong>📄 Curriculum Vitae (CV):</strong> 
+                <li><strong>📄 Curriculum Vitae (CV):</strong>
                   <a href="ItalianCVFinal.pdf" target="_blank">View CV (PDF)</a>
+                </li>
+                <li><strong>📄 Rèsumè:</strong>
+                  <a href="Resume.pdf" target="_blank">View Rèsumè (PDF)</a>
                 </li>
               </ul>
             </div>`,
@@ -201,6 +204,9 @@ const content = {
                 <li><strong>💬 WhatsApp:</strong> <a href="https://wa.me/3483059292" target="_blank">Chat on WhatsApp</a></li>
                 <li><strong>📄 Curriculum Vitae (CV):</strong> 
                   <a href="EnglishCVFinal.pdf" target="_blank">View CV (PDF)</a>
+                </li>
+                <li><strong>📄 Rèsumè:</strong>
+                  <a href="Resume.pdf" target="_blank">View Rèsumè (PDF)</a>
                 </li>
               </ul>
             </div>`,
@@ -530,4 +536,5 @@ window.addEventListener("DOMContentLoaded", () => {
     loadSection(currentSection);
   }
 });
+
 
