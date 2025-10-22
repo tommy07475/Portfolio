@@ -88,7 +88,7 @@ const content = {
                 <li><strong>📧 Email:</strong> <a href="zabeotommaso@gmail.com">zabeotommaso@gmail.com</a></li>
                 <li><strong>💬 WhatsApp:</strong> <a href="https://wa.me/3483059292" target="_blank">Chatta con me su WhatsApp</a></li>
                 <li><strong>📄 Curriculum Vitae (CV):</strong> 
-                  <a href="ItalianCVSubFinal.pdf" target="_blank">View CV (PDF)</a>
+                  <a href="ItalianCVFinal.pdf" target="_blank">View CV (PDF)</a>
                 </li>
               </ul>
             </div>`,
@@ -200,7 +200,7 @@ const content = {
                 <li><strong>📧 Email:</strong> <a href="zabeotommaso@gmail.com">zabeotommaso@gmail.com</a></li>
                 <li><strong>💬 WhatsApp:</strong> <a href="https://wa.me/3483059292" target="_blank">Chat on WhatsApp</a></li>
                 <li><strong>📄 Curriculum Vitae (CV):</strong> 
-                  <a href="EnglishCVSubFinal.pdf" target="_blank">View CV (PDF)</a>
+                  <a href="EnglishCVFinal.pdf" target="_blank">View CV (PDF)</a>
                 </li>
               </ul>
             </div>`,
@@ -530,3 +530,4 @@ window.addEventListener("DOMContentLoaded", () => {
     loadSection(currentSection);
   }
 });
+
